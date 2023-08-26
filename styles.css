@@ -1,0 +1,118 @@
+body {
+    display: flex;
+    margin: 0;
+    height: 100vh;
+    font-family: 'Inter', sans-serif;
+    background-color: #f9fafb;
+    align-items: center;
+}
+
+.img {
+    background-image: url("./img/blurry-gradient-haikei.svg");
+    background-size: cover;
+    flex: 2;
+    min-width: 200px;
+    align-self: stretch;
+}
+
+.logo-img {
+    display: block;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40%;
+}
+
+.right {
+    margin: 40px;
+    flex: 3;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    width: 70%;
+}
+
+li {
+    width: 100%;
+    flex: 1 1 13rem;
+}
+
+form {
+    border: none;
+    padding: 5px 40px 30px 40px;
+    min-width: 250px;
+    background-color: #fff;
+    width: 100%;
+    margin: 24px -40px 30px -40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+form > p {
+    font-size: 1.4rem;
+}
+
+form > * {
+    flex-basis: 100%;
+}
+
+label,
+input {
+    display: block;
+}
+
+input {
+    padding-left: 4px;
+    font-size: 1rem;
+    width: 13rem;
+    height: 2rem;
+}
+
+li > label {
+    margin-bottom: 0.5rem;
+}
+
+button {
+    margin-top: 12px;
+    padding: 16px 24px;
+    background-color: #613DC0;
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+    font-size: 1rem;
+}
+
+.login {
+    font-weight: bold;
+    color: #613DC0;
+}
+
+input:focus {
+    outline: none;
+    border-color: #613DC0;
+    box-shadow: 0 0 2px #613DC0;
+    border-radius: 2px;
+}
+
+input:invalid {
+    outline: none;
+    border-color: #cc0033;
+    box-shadow: 0 0 2px #cc0033;
+    border-radius: 2px;
+}
+
+.error-message {
+    color: #cc0033;
+    display: inline-block;
+    font-size: 0.8rem;
+    line-height: 15px;
+    margin: 5px 0 0;
+  }

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up form</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="img">
+        <div class="logo-container">
+            <img src="./img/tutorio-low-resolution-logo-color-on-transparent-background.png" alt="logo" class="logo-img">
+        </div>
+    </div>
+    <div class="right">
+        <p class="bold-text">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started.</p>
+        You know you want to.
+        <form action="post">
+            <p>Let's do this!</p>
+            <div class="inputs">
+                <ul>
+                <li><label for="firstname">First name</label>
+                <input type="text" id="firstname" name="firstname"></li>
+                <li><label for="lastname">Last name</label>
+                <input type="text" id="lastname" name="lastname"></li>
+                <li><label for="email">Email</label>
+                <input type="email" id="email" name="email"></li>
+                <li><label for="tel">Phone number</label>
+                <input type="tel" id="tel" name="tel"></li>
+                <li><label for="password">Password</label>
+                <input type="password" id="password" name="password" required></li>
+                <li><label for="con-password">Confirm password</label>
+                <input type="password" id="con-password" name="password" required></li>
+                </ul>
+            </div>
+            <button>Create account</button>
+        </form>
+        <p>Already have an account? <span class="login">Log In</span></p>
+    </div>
+</body>
+</html>
