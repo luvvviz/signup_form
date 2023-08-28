@@ -116,3 +116,11 @@ input:invalid {
     line-height: 15px;
     margin: 5px 0 0;
   }
+
+  button:hover {
+    background-color: #8c6edf;
+  }
+
+  button:active {
+    background-color: #613DC0;
+  }
