@@ -117,10 +117,10 @@ input:invalid {
     margin: 5px 0 0;
   }
 
-  button:hover {
+button:hover {
     background-color: #8c6edf;
   }
 
-  button:active {
+button:active {
     background-color: #613DC0;
   }
