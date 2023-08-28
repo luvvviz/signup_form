@@ -11,7 +11,7 @@ body {
 }
 
 .img {
-    background-image: linear-gradient(to bottom right, #FFC051, #613DC0);
+    background-image: linear-gradient(0.6turn, #FFC051, #613DC0);
     background-size: cover;
     flex: 2;
     min-width: 200px;
